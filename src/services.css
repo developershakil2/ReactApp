@@ -1,0 +1,77 @@
+*{padding:0px;margin:0px; box-sizing:border-box}
+
+.services{
+background-image:url(./image/contact.svg);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+padding:70px 0px;
+
+
+}
+.ser_box_icon_pa img {
+    position: absolute;
+    top: 12%;
+    left: 11%;
+}
+a{text-decoration:none;}
+.ser_box_icon_pr{
+    position: relative;
+    width:120px;
+    height:120px;
+    background:#fff;
+    border-radius:58px;
+    
+}
+.ser_box_icon_pa i{
+    position:fixed;
+    top:50%;
+    left:50%;
+    font-size:45px;
+    color:#fff;
+    transform: translate(-50%, -50%);
+   
+}
+.ser_box_icon_pa{
+    position: relative;
+    width:90px;
+    height:90px;
+    background:#15ff00;
+    border-radius:50px;
+    left:50%;
+    top:50%;
+    transform:translate(-50% , -50%);
+}
+
+/* }
+@keyframes boxi {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(25deg);}
+    50% {transform: rotate(50deg);}
+    75% {transform: rotate(75deg);}
+    100% {transform: rotate(100deg);}
+
+
+
+} */
+#service_box{
+   
+    box-shadow: -1px 3px 5px #111;
+    display:grid ;
+    justify-items: center;
+    padding:25px 0px;
+}
+.service_des {
+    padding: 3px 21px;
+    text-align: start;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+div#service_box h4 {
+    font-size: 31px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,29 @@
+*{padding:0px;margin:0px;}
+
+
+.contact{
+    background-image: url(./image/services.svg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+   padding:30px 0px;
+    width:100%;
+}
+textarea{
+    resize:none
+}
+input#submit {
+    width: 90px;
+    margin-top: 6px;
+    padding: 3px 0px;
+    background: #15ff00;
+}
+input#submit:hover{
+    background:#111;
+    color:#fff;
+}
+.contact_number.d-flex i {
+    font-size: 23px;
+    margin-right: 12px;
+    color: #15ff00;
+}
