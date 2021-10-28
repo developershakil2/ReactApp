@@ -9,6 +9,7 @@ import ClearAllIcon from '@mui/icons-material/ClearAll';
 import Button from '@mui/material/Button';
 import CloseIcon from '@mui/icons-material/Close';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import MyComponent from './MyComponent';
 import './about.css';
 import "./index.css";
 import Footer from './Footer';
@@ -97,14 +98,13 @@ const About = ()=>{
 <div className="home_left">
 <div className="wrapper_tow">
 
-<h2>I'm a front-end web developer </h2>
-
+<h2>I'm a <span><MyComponent/></span></h2>
   
 <p>
 hi 
 
 this is shakil hossain I'm a front-end web developer 
-i have very good experience of front-end web develpment
+i have good experience with front-end web develpment
 I'm familier with following technologes 
 Html Css Javascript Bootstrap React.js 
 i have also work experience with 50+ project i had completed perfectly

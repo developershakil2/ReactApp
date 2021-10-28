@@ -33,6 +33,7 @@ a{text-decoration:none;}
    
 }
 .ser_box_icon_pa{
+    overflow:hidden;
     position: relative;
     width:90px;
     height:90px;

@@ -84,7 +84,6 @@ const Services = ()=>{
 
 
 
-
 <div className="services">
 
 <div className="heading_title">
@@ -106,11 +105,11 @@ const Services = ()=>{
   <div className="service_des">
   <h4>front-end development</h4>
     <p>
-      I'm providing front-end web development service 
-      what i will do after your the order 
-      i will get concept from you about your project 
-      than i will start your work and I'm always ready to start work
-
+     I'm a experienced front-end web developer my skills for front-end web development
+      , html,  css,  Javascript, Bootstrap React.js, if you have any file to need convert with React.js
+      I'm always ready to do your job 
+    
+    
     </p>
     <NavLink to="/contact">
      
@@ -129,18 +128,17 @@ contact
  <div id="service_box" className="col-12 col-md-11 position-relative">
    <div className="ser_box_icon_pr">
      <div className="ser_box_icon_pa">
-     <img width="70px" height="70px" src="./image/cc.png" alt="psd_lofo"/>
+     <img style={{marginTop:'-10px', marginLeft:"-8px"}} width="90px" height="90px" src="./image/cc.jpg" alt="psd_lofo"/>
      </div>
    </div>
   
   <div className="service_des">
-  <h4>front-end development</h4>
+  <h4>mailchimp expert </h4>
     <p>
-      I'm providing front-end web development service 
-      what i will do after your the order 
-      i will get concept from you about your project 
-      than i will start your work and I'm always ready to start work
-
+   I'm a mailchimp expert if you will need custom or mailchimp
+   email template design and automotion setup 
+   and website popup subscribe form so here is a solution 
+   for your buisness
     </p>
     <NavLink to="/contact">
      
@@ -156,20 +154,17 @@ contact
 </div>
 <div className="col-12 col-md-6 col-lg-4  mt-md-4 mt-sm-4 mt-4  row">
  <div id="service_box" className="col-12 col-md-11 position-relative">
-   <div className="ser_box_icon_pr">
+ <div className="ser_box_icon_pr">
      <div className="ser_box_icon_pa">
-     <i className="fas fa-laptop-code"></i>
+     <img style={{marginTop:'-10px', marginLeft:"-8px"}} width="90px" height="90px" src="./image/ff.png" alt="psd_lofo"/>
      </div>
    </div>
   
   <div className="service_des">
-  <h4>front-end development</h4>
+  <h4>PSD & Figma to html</h4>
     <p>
-      I'm providing front-end web development service 
-      what i will do after your the order 
-      i will get concept from you about your project 
-      than i will start your work and I'm always ready to start work
-
+    are you looking for convert your psd or figma to html so congrats you are right place
+   I'm good experience with Figma and photoshop so you can hire me for your project
     </p>
     <NavLink to="/contact">
      
@@ -186,6 +181,8 @@ contact
 </div>
 
 </div>
+
+
 <Footer/>
         </>
     )

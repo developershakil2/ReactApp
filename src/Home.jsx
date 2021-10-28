@@ -13,6 +13,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import Footer from './Footer';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MyComponent from './MyComponent';
 const Home = ()=>{
   const open = '0%';
   const close = '-9999%';
@@ -139,16 +140,15 @@ const link = 'https://linkedin.com/in/developershakil';
 <div className="home_left">
 <div className="wrapper_tow">
 
-<h2>Hi, I'm Shakil Hossain </h2>
+<h2> I'm  a<span><MyComponent/></span> </h2>
 
   
 <p>
 
-hi there. this is shakil hossain I'm a front-end web developer
-i have experience more than 4 years with React.js
+hi I'm  shakil hossain I'm a front-end web developer
+i have experience more than 4 years with front-end web development, also i have good experience, with mailchimp, psd to html , figma to html,
 
 </p>
-
 <NavLink to='/contact'>
 <Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
 contact
@@ -169,11 +169,6 @@ contact
 </div>
 </div>
       
-
-
-
-
-
 
 
 
@@ -204,104 +199,89 @@ contact
   <div className="service_des">
   <h4>front-end development</h4>
     <p>
-      I'm providing front-end web development service 
-      what i will do after your the order 
-      i will get concept from you about your project 
-      than i will start your work and I'm always ready to start work
-
-    </p>
-    <NavLink to="/contact">
-     
-<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
-contact
-<TelegramIcon style={{fontSize:'25px'}}/>
-</Button>
-
-    </NavLink>
-  </div>
-  
- </div>
-</div>
-
-<div className="col-12 col-md-6 col-lg-4  mt-md-4 mt-sm-4 mt-4  row">
- <div id="service_box" className="col-12 col-md-11 position-relative">
-   <div className="ser_box_icon_pr">
-     <div className="ser_box_icon_pa">
-     <img width="70px" height="70px" src="./image/cc.png" alt="psd_lofo"/>
-     </div>
-   </div>
-  
-  <div className="service_des">
-  <h4>Psd To Html </h4>
-    <p>
-     i can convert your psd file into Html
-      what i will do after your the order 
-      i will need only your psd file from you about your project 
-      than i will start your work and I'm always ready to start work
-
-    </p>
-    <NavLink to="/contact">
-     
-<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
-contact
-<TelegramIcon style={{fontSize:'25px'}}/>
-</Button>
-
-    </NavLink>
-  </div>
-  
- </div>
-</div>
-<div className="col-12 col-md-6 col-lg-4  mt-md-4 mt-sm-4 mt-4  row">
- <div id="service_box" className="col-12 col-md-11 position-relative">
-   <div className="ser_box_icon_pr">
-     <div className="ser_box_icon_pa">
-     <i className="fas fa-cog"></i>
-     </div>
-   </div>
-  
-  <div className="service_des">
-  <h4>Bug Fixing</h4>
-    <p>
-     i can fix your css and Javascript bugs i have good experience 
-     of css and Javascript so if you are facing any trouble with your website
-     so i can help you to fix your bug
-     
-    </p>
-    <NavLink to="/contact">
-     
-<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
-contact
-<TelegramIcon style={{fontSize:'25px'}}/>
-</Button>
-
-    </NavLink>
-  </div>
-  
- </div>
-</div>
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     I'm a experienced front-end web developer my skills for front-end web development
+      , html,  css,  Javascript, Bootstrap React.js, if you have any file to need convert with React.js
+      I'm always ready to do your job 
     
+    
+    </p>
+    <NavLink to="/contact">
+     
+<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
+contact
+<TelegramIcon style={{fontSize:'25px'}}/>
+</Button>
+
+    </NavLink>
+  </div>
+  
+ </div>
+</div>
+
+<div className="col-12 col-md-6 col-lg-4  mt-md-4 mt-sm-4 mt-4  row">
+ <div id="service_box" className="col-12 col-md-11 position-relative">
+   <div className="ser_box_icon_pr">
+     <div className="ser_box_icon_pa">
+     <img style={{marginTop:'-10px', marginLeft:"-8px"}} width="90px" height="90px" src="./image/cc.jpg" alt="psd_lofo"/>
+     </div>
+   </div>
+  
+  <div className="service_des">
+  <h4>mailchimp expert </h4>
+    <p>
+   I'm a mailchimp expert if you will need custom or mailchimp
+   email template design and automotion setup 
+   and website popup subscribe form so here is a solution 
+   for your buisness
+    </p>
+    <NavLink to="/contact">
+     
+<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
+contact
+<TelegramIcon style={{fontSize:'25px'}}/>
+</Button>
+
+    </NavLink>
+  </div>
+  
+ </div>
+</div>
+<div className="col-12 col-md-6 col-lg-4  mt-md-4 mt-sm-4 mt-4  row">
+ <div id="service_box" className="col-12 col-md-11 position-relative">
+ <div className="ser_box_icon_pr">
+     <div className="ser_box_icon_pa">
+     <img style={{marginTop:'-10px', marginLeft:"-8px"}} width="90px" height="90px" src="./image/ff.png" alt="psd_lofo"/>
+     </div>
+   </div>
+  
+  <div className="service_des">
+  <h4>PSD & Figma to html</h4>
+    <p>
+    are you looking for convert your psd or figma to html so congrats you are right place
+   I'm good experience with Figma and photoshop so you can hire me for your project
+    </p>
+    <NavLink to="/contact">
+     
+<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
+contact
+<TelegramIcon style={{fontSize:'25px'}}/>
+</Button>
+
+    </NavLink>
+  </div>
+  
+ </div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
       <div className="about">
 
 <div className="heading_title">
@@ -314,14 +294,14 @@ contact
 <div className="home_left">
 <div className="wrapper_tow">
 
-<h2>I'm a front-end web developer </h2>
+<h2>I'm a <span><MyComponent/></span></h2>
 
   
 <p>
 hi 
 
 this is shakil hossain I'm a front-end web developer 
-i have very good experience of front-end web develpment
+i have good experience with front-end web develpment
 I'm familier with following technologes 
 Html Css Javascript Bootstrap React.js 
 i have also work experience with 50+ project i had completed perfectly

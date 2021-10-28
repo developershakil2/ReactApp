@@ -10,7 +10,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import Button from '@mui/material/Button';
 import CloseIcon from '@mui/icons-material/Close';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Footer from './Footer';
 const Contact = ()=>{
     
@@ -81,7 +80,6 @@ if(res){
 const fb = 'https://www.facebook.com/profile.php?id=100073795313347';
 const twit = 'https://twitter.com/info4shakil';
 const insta = 'https://instagram.com/info2shakil';
-const link = 'https://linkedin.com/in/developershakil';
 
     return(
 
