@@ -14,6 +14,7 @@ import 'react-awesome-slider/dist/styles.css';
 import Footer from './Footer';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MyComponent from './MyComponent';
+
 const Home = ()=>{
   const open = '0%';
   const close = '-9999%';
@@ -159,25 +160,12 @@ contact
 
 </div>
 
-
-
-
 <div className="home_image">
 <img  src="image/shakil1.jpg" alt="myphoto"/>
 
 </div>
 </div>
 </div>
-      
-
-
-
-
-
-
-
-
-
       <div className="services">
 
 <div className="heading_title">
@@ -199,8 +187,8 @@ contact
   <div className="service_des">
   <h4>front-end development</h4>
     <p>
-     I'm a experienced front-end web developer my skills for front-end web development
-      , html,  css,  Javascript, Bootstrap React.js, if you have any file to need convert with React.js
+    I'm a experienced front-end web developer my skills for front-end web development
+      , HTML,  CSS,  Javascript, Bootstrap React.js, if you have any file to need to convert with React.js
       I'm always ready to do your job 
     
     
@@ -229,10 +217,10 @@ contact
   <div className="service_des">
   <h4>mailchimp expert </h4>
     <p>
-   I'm a mailchimp expert if you will need custom or mailchimp
-   email template design and automotion setup 
+    I'm a Mailchimp expert if you will need custom or Mailchimp
+   email template design and automation setup 
    and website popup subscribe form so here is a solution 
-   for your buisness
+   for your business
     </p>
     <NavLink to="/contact">
      
@@ -257,8 +245,9 @@ contact
   <div className="service_des">
   <h4>PSD & Figma to html</h4>
     <p>
-    are you looking for convert your psd or figma to html so congrats you are right place
-   I'm good experience with Figma and photoshop so you can hire me for your project
+    are you looking to convert your PSD or Figma to HTML so congrats you are in the right place?
+   I have  good knowledge of Figma and Photoshop so if you are interested to work with me please contact me
+  
     </p>
     <NavLink to="/contact">
      
@@ -301,12 +290,12 @@ contact
 hi 
 
 this is shakil hossain I'm a front-end web developer 
-i have good experience with front-end web develpment
-I'm familier with following technologes 
-Html Css Javascript Bootstrap React.js 
-i have also work experience with 50+ project i had completed perfectly
-my comunication also well and friendly, 
-after complete your project i will support you 24/7 without any cost
+I have good experience with front-end web development
+I'm familiar with following technologies 
+Html CSS Javascript Bootstrap React.js 
+I have also work experience with 50+ projects I had completed perfectly
+my communication is also well and friendly, 
+after completing your project I will support you 24/7 without any cost
 </p>
 
  <NavLink to="/contact">
@@ -316,59 +305,21 @@ contact
 </Button>
 </NavLink>
 </div>
-
 </div>
-
-
-
-
 <div id="about_img" className="home_image">
 <img  src="image/shakil.jpg" alt="myphoto"/>
-
 </div>
-
 </div>
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div  className="portfolio">
-
-
 <div className="heading_title">
   <div className="headin_tit">
   <h3>Portfolio</h3>
   </div>
 </div>
-
-
 <div style={{height:"100vh", marginTop: "17px",
 }} className="portfolio_wrapper">
-    
  <div id="portfolio" className="portfolio_container container-fluid row m-auto">
        <AwesomeSlider>
           <div style={{background:'none'}} className="row slid">
@@ -386,17 +337,13 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
-          </div>
-
-
-          <div style={{background:'none'}} className="row slid">
-          <div className="col-12">
-          <div className="portfolio_img">
-          <img src="./image/p2.jpg" alt="reviewimg"/>
-
-          </div>
+            </div>
+             <div style={{background:'none'}} className="row slid">
+               <div className="col-12">
+                 <div className="portfolio_img">
+               <img src="./image/p2.jpg" alt="reviewimg"/>
+                 </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
            <p>using html css bootstrap and React.js</p>
@@ -406,16 +353,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p3.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -426,16 +369,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p4.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -446,17 +385,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
-
-
           </div>  
           </div>
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p5.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -467,17 +401,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
-
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p6.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -488,17 +417,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
-
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p7.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -509,17 +433,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
-
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p8.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -530,17 +449,12 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
-
-
           <div style={{background:'none'}} className="row slid">
           <div className="col-12">
           <div className="portfolio_img">
           <img src="./image/p9.jpg" alt="reviewimg"/>
-
           </div>
           <div className="portfolio_des">
            <h3>front-end web development</h3>
@@ -551,26 +465,14 @@ visit
 </Button>
 </NavLink>
           </div>
-
           </div>  
           </div>
-
         </AwesomeSlider>
-
  </div>
 </div>
-
 </div>
 
-
-
-
-
-
-
-
 <div className="contact">
-        
         <div className="heading_title">
           <div className="headin_tit">
           <h3 >Contact</h3>
@@ -588,7 +490,6 @@ visit
              <div className="contact_number mt-5 d-flex">
              <i className="fas fa-phone"></i> <h4> +8801631636292</h4>
              </div>
-             
              <div className="contact_number mt-5 d-flex">
              <i class="fas fa-map-marker-alt"></i><h4> magura, bangladesh</h4>
              </div>
@@ -596,30 +497,17 @@ visit
              <div className="contact_number mt-5 d-flex">
              <i class="fas fa-envelope"></i>  <h4> dev4web.bd@gmail.com</h4>
              </div>
-          
            </div>
-        
-        
-        
            <div className="col-12 col-md-6 col-lg-6 mt-4" >
            <form method="POST">
      <input onChange={dataPass} name="fullname" value={userData.fullname} className="form-control" type="text" placeholder="enter your full name"/>
      <input onChange={dataPass}  name='email'  value={userData.email}    className="form-control mt-4" type="email" placeholder="enter a valid email"/>
      <textarea onChange={dataPass}  name="message" value={userData.message} style={{height:"200px", }} className="form-control mt-4" type="text" placeholder="write your mail..."/>
      <input onClick={submitData} id="submit" type="submit" value="submit"/>
-
-
      </form>
-
-        
            </div>
-        
             </div>
-        
-                   
-        
                 </div>
-        
    <Footer/>
         </>
     )

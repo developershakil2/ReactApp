@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {NavLink} from 'react-router-dom';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -8,29 +8,43 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import ClearAllIcon from '@mui/icons-material/ClearAll';
 import Button from '@mui/material/Button';
 import CloseIcon from '@mui/icons-material/Close';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import MyComponent from './MyComponent';
-import './about.css';
-import "./index.css";
+import Page2 from './Page2';
+import Page3 from './Page3';
 import Footer from './Footer';
-const About = ()=>{
-  const open = '0%';
-  const close = '-9999%';
- const [navs , setNavs] = useState(close);
+const Note = ()=>{
 
+    const open = '0%';
+    const close = '-9999%';
+   const [navs , setNavs] = useState(close);
   
-  const navOpen = ()=>{
-    setNavs(open)
-
-  }
-
-  const navClose = ()=>{
-    setNavs(close)
-
-  }
+    
+    const navOpen = ()=>{
+      setNavs(open)
+  
+    }
+  
+    const navClose = ()=>{
+      setNavs(close)
+  
+    }
+    const [myArr, setMyArr] = useState([]);
+    const reF = (myData)=>{
+        setMyArr((old)=>{
+            return [...old, myData]
+        })  
+    }
+    const cleanRe =(id)=>{
+       setMyArr((oldd)=>{
+        return oldd.filter((el , index)=>{
+            return id !== index
+        })
+       })
+    }
     return(
         <>
-        <nav className="nav_bar" >
+       
+
+       <nav className="nav_bar" >
      <div className="container" id="nav_con">
      
     <div className="logo">
@@ -80,13 +94,6 @@ const About = ()=>{
      </div>
 </nav>
 
-<div className="about">
-
-<div className="heading_title">
-  <div className="headin_tit">
-  <h3>about</h3>
-  </div>
-</div>
 
 
 
@@ -94,52 +101,30 @@ const About = ()=>{
 
 
 
-<div className="container  home_wrapper">
-<div className="home_left">
-<div className="wrapper_tow">
-
-<h2>I'm a <span><MyComponent/></span></h2>
-  
-<p>
-hi 
-
-this is shakil hossain I'm a front-end web developer 
-I have good experience with front-end web development
-I'm familiar with following technologies 
-Html CSS Javascript Bootstrap React.js 
-I have also work experience with 50+ projects I had completed perfectly
-my communication is also well and friendly, 
-after completing your project I will support you 24/7 without any cost
-</p>
-
-
-<NavLink to="/contact">
-<Button id="conBtn" style={{ width:'120px' , marginTop: "10px",background:"#15ff00",color:"#fff", fontWeight:"bold", fontSize:'18px'}} className="conBtn">
-contact
-<TelegramIcon style={{fontSize:'25px'}}/>
-</Button>
-</NavLink>
-</div>
-
-</div>
 
 
 
 
-<div   id="about_img" className="home_image ">
-
-  
-<img  src="image/shakil.jpg" alt="myphoto"/>
 
 
-</div>
+          <div style={{marginTop:'50px',marginBottom:'30px'}} className="inuf">
+          <Page2 passF={reF}/>
 
-</div>
+          </div>
+          
+         <div className="card_align">
+         {myArr.map((el, index)=>{
+             return <Page3 cleanTr={cleanRe} id={index} key={index} title={el.title} content={el.content}/>
 
-</div>
-<Footer/>
-</>  
+         })
 
-  )}
+         }
+         
+         </div>
+         <Footer/>
+        </>
+    )
 
-export default About ;
+
+}
+export default Note ;

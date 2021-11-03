@@ -7,9 +7,9 @@ import About from './About';
 import Services from './Services';
 import Portfolio from './portfolio';
 import Footer from './Footer';
-
+import Note from './MyNote';
 const App = () =>{
-
+  
     return(
 
         <>
@@ -22,10 +22,11 @@ const App = () =>{
         <Route exact path="/portfolio" component={Portfolio}/>
         <Route exact path='/contact' component={Contact}/>
         <Route exact path='/footer' component={Footer}/>
+        <Route exext path='/note' component={Note}/>
         <Route component={Error}/>
         </Switch>
       
-       
+
         </>
     )
 

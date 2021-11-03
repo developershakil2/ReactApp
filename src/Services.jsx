@@ -105,11 +105,9 @@ const Services = ()=>{
   <div className="service_des">
   <h4>front-end development</h4>
     <p>
-     I'm a experienced front-end web developer my skills for front-end web development
-      , html,  css,  Javascript, Bootstrap React.js, if you have any file to need convert with React.js
+    I'm a experienced front-end web developer my skills for front-end web development
+      , HTML,  CSS,  Javascript, Bootstrap React.js, if you have any file to need to convert with React.js
       I'm always ready to do your job 
-    
-    
     </p>
     <NavLink to="/contact">
      
@@ -135,10 +133,10 @@ contact
   <div className="service_des">
   <h4>mailchimp expert </h4>
     <p>
-   I'm a mailchimp expert if you will need custom or mailchimp
-   email template design and automotion setup 
+    I'm a Mailchimp expert if you will need custom or Mailchimp
+   email template design and automation setup 
    and website popup subscribe form so here is a solution 
-   for your buisness
+   for your business
     </p>
     <NavLink to="/contact">
      
@@ -163,8 +161,8 @@ contact
   <div className="service_des">
   <h4>PSD & Figma to html</h4>
     <p>
-    are you looking for convert your psd or figma to html so congrats you are right place
-   I'm good experience with Figma and photoshop so you can hire me for your project
+    are you looking to convert your PSD or Figma to HTML so congrats you are in the right place?
+   I have  good knowledge of Figma and Photoshop so if you are interested to work with me please contact me
     </p>
     <NavLink to="/contact">
      
