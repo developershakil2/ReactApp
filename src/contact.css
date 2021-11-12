@@ -2,7 +2,7 @@
 
 
 .contact{
-    background-image: url(./image/services.svg);
+    background-image: linear-gradient(#00000079, #00000079), url(./image/services.svg);
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center;

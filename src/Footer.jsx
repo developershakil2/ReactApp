@@ -65,7 +65,7 @@ const link = 'https://linkedin.com/in/developershakil';
     return(
 
         <>
-        <footer style={{background: "#111" , padding: '50px 0px'}} className="footer text-light  ">
+        <footer style={{  marginBottom:"-25px",  background: "#111" , padding: '50px 0px'}} className="footer text-light  ">
         
         <div className="container row m-auto">
         <div className="col-12 col-md-6 col-lg-4 ">

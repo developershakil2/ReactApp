@@ -508,7 +508,7 @@ visit
            </div>
             </div>
                 </div>
-   <Footer/>
+                <Footer/>
         </>
     )
 

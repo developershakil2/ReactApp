@@ -6,9 +6,11 @@ import Error from './Error';
 import About from './About';
 import Services from './Services';
 import Portfolio from './portfolio';
-import Footer from './Footer';
 import Note from './MyNote';
-const App = () =>{
+import Footer from './Footer';
+
+import ReactWhatsapp from 'react-whatsapp';
+const App  = () =>{
   
     return(
 
@@ -25,7 +27,8 @@ const App = () =>{
         <Route exext path='/note' component={Note}/>
         <Route component={Error}/>
         </Switch>
-      
+        <ReactWhatsapp number="+8801631636292" message="hi i'm glad to introduce you!!" />
+
 
         </>
     )

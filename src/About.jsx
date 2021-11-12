@@ -30,7 +30,7 @@ const About = ()=>{
   }
     return(
         <>
-        <nav className="nav_bar" >
+        <nav  className="nav_bar" >
      <div className="container" id="nav_con">
      
     <div className="logo">
